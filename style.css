@@ -1,0 +1,64 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    font-family: Arial, sans-serif; /* Fuente estándar */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #810; /* Fondo gris oscuro */
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Contenedor de los botones */
+.container {
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    align-items: center; /* Centrado horizontal */
+    margin: 20px;
+}
+
+/* Botones */
+.button {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    text-decoration: none; /* Quita el subrayado */
+    color: white;
+    background-color: #900; /* Fondo oscuro para botones */
+    padding: 0px;
+    border-radius: 55px; /* Bordes redondeados */
+    width: 359px; /* Tamaño fijo del botón */
+    margin: 2px; /* Espaciado entre botones */
+    transition: background-color 0.3s;
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+/* Contenido del botón (imagen + texto) */
+.button-content {
+    display: flex;
+    flex-direction: column; /* Coloca imagen y texto en columnas */
+    align-items: center; /* Centra contenido */
+}
+
+/* Estilo de las imágenes */
+.button-content img {
+    width: 360px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción */
+    margin-bottom: 2px; /* Espacio entre la imagen y el texto */
+}
+
+/* Efecto hover para los botones */
+.button:hover {
+    background-color: #555; /* Tono más claro al pasar el cursor */
+}
